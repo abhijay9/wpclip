@@ -1,0 +1,11 @@
+# Ignore Python cache and OS junk
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Ignore all PyTorch model checkpoints
+*.pt
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
