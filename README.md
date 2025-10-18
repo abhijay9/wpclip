@@ -14,10 +14,20 @@ Wölfflin's five principles offer a structured approach to analyzing stylistic v
 
 ## Run on a single image
 ```
+# install requirements
+pip install torch
+pip install torchvision
+pip install openai-clip
+
+# download model
+pip install gdown
+gdown 1IkAmA2pIyiMTWVgg-W1U193Zd3-MwOeQ --output ./ckpts/
+
+# run on a sample image
 python test_single_image.py -i samples/26987.jpg
 ```
 
-For installation instructions, check [CLIP-IQA](https://github.com/IceClear/CLIP-IQA).
+For detailed installation instructions, check [CLIP-IQA](https://github.com/IceClear/CLIP-IQA).
 
 The model weights can be downloaded from [this link](https://drive.google.com/drive/folders/1QpHuSoFR9EE-9XeB1W7tTNZGnrKrGOHL?usp=sharing)
 
