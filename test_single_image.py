@@ -75,7 +75,7 @@ def get_antonym_pairs():
             "linear-vs-painterly",
             "closed-vs-open", 
             "multiplicity-vs-unity",
-            "clearness-vs-unclearness"
+            "absolute-vs-relative"
         ]
     
     # Extract principle antonym pairs
